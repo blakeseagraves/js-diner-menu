@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Diner Menu</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="menus">
+      <div id="main-menu">
+          <h1 onClick="displayMainMenu()">Main Menu</h1>
+          <ul  id="main-menu-items">
+              <li class="menu-item" >Steak dinner $25</li>
+              <li class="menu-item">Chicken dinner $20</li>
+              <li class="menu-item">Veggie dinner $15</li>
+          </ul>
+      </div>
+      <div id="sides-menu">
+          <h2 onClick="displaySidesMenu()">Sides Menu</h2>
+          <ul id="sides-menu-items">
+              <li class="menu-item">Potato $12</li>
+              <li class="menu-item">Bean $10</li>
+              <li class="menu-item">Salad $8</li>
+          </ul>
+      </div>
+    </div>
+    <div class="right-side-wrapper">
+      <div>
+        <h2 onclick="payBill()" >Pay the bill</h2>
+      </div>
+      <div id="waitress-display">
+          <h1>Waitress:</h1>
+          <p>"Great choice!"</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

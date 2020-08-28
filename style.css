@@ -1,0 +1,8 @@
+#main-menu-items, #sides-menu-items {
+    visibility: hidden;
+}
+
+#menu-items-shown {
+    visibility: visible;
+}
+
